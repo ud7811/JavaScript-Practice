@@ -5,7 +5,7 @@ function myFunction() {
 myFunction();
 
 //Anonymous functions: without name, used as fubction expression or a arguments
-let greet = function (name){
+let greet1 = function (name){
   console.log(`Hello ${name}`)
 };
-greet('Utkarsh')
+greet1('Utkarsh')
