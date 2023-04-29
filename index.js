@@ -12,3 +12,8 @@ person1('Utkarsh');
 //Arrow Function:introduced in ES6, shorter syntax & one-lined functions
 let person = () => console.log("Hello");
 person();
+
+//Higher Order Func: functions that take one or more functions as arguments or return a fuction. for eg: map(), filter(), reduce()
+let ary = [10,20,23];
+let newary = ary.map((element)=>element+10);
+console.log(newary)
