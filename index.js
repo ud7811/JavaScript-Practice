@@ -5,7 +5,10 @@ function myFunction() {
 myFunction();
 
 //Anonymous functions: without name, used as fubction expression or a arguments
-let greet1 = function (name){
+let greet = function (name){
   console.log(`Hello ${name}`)
 };
-greet1('Utkarsh')
+greet('Utkarsh');
+//Arrow Function
+let person = () => console.log("Hello");
+person();
